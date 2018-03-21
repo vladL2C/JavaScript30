@@ -119,10 +119,11 @@
         if (inBetween) {
           checkbox.checked = true;
         }
+        
       });
     }
     lastChecked = this;
-    console.log("this is the last checked ", lastChecked);
+    //console.log("this is the last checked ", lastChecked);
   }
   
   checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
